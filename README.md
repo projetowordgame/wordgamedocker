@@ -1,4 +1,4 @@
-# 🧠 Projeto de Quiz Escolar (React + NestJS + MySQL + Docker)
+# 🧠 Projeto de Kids Game (React + NestJS + MySQL + Docker)
 
 Este projeto é um sistema de jogos escolares com backend em **NestJS**, frontend em **React + Vite** e banco de dados **MySQL**, tudo empacotado com **Docker** para rodar facilmente em qualquer computador.
 
@@ -35,8 +35,7 @@ Antes de começar, você precisa ter instalado no seu computador:
 
 Abra o terminal (cmd, PowerShell, Git Bash ou outro) e execute:
 
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/projetowordgame/wordgamedocker.git
 
 
 ### 2. Rode o projeto com Docker
@@ -53,7 +52,7 @@ Este comando irá:
 - Rodar o backend NestJS
 - Rodar o frontend React + Vite.
 
-OBS: Pode ser que alguma porta 3306 ou outras estejam sendo utilizadas, se for o caso, deve parar o serviço que esteja usando fora do docker.
+OBS: É possivel monitorar o container criado (iniciar ou parar) no docker desktop.
 
 
 ### 3. Acessos após rodar
