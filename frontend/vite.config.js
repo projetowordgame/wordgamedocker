@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    host: '0.0.0.0',      // escuta em todas as interfaces
+  preview: {
+    host: '0.0.0.0',       // aceita conexões externas
     port: 5173,
     strictPort: true,
-    allowedHosts: ['*'],  // aceita qualquer host
-    cors: true            // garante que o proxy não bloqueie
+    allowedHosts: ['.csb.app'], // libera todos os subdomínios do CodeSandbox
+    cors: true
   }
 })
