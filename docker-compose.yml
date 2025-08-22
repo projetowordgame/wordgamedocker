@@ -32,7 +32,7 @@ services:
     build: ./frontend
     container_name: frontend
     ports:
-      - "${FRONTEND_PORT}:5173"
+      - "5173:5173"
     depends_on:
       - backend
 
