@@ -46,12 +46,16 @@ const Auth = () => {
         <h2>Faça seu login</h2>
           <input
             type="email"
+            id="email"
+            name="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="password"
+            id="password"
+            name="password"
             placeholder="Senha"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
