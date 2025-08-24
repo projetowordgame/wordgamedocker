@@ -8,6 +8,9 @@ export default defineConfig({
     port: 5173,
     strictPort: true,
     allowedHosts: ['.csb.app'], // libera todos os subdomínios do CodeSandbox
-    cors: true
+    cors: true,
+    server: {
+      host: true, // permite acesso de outros dispositivos na mesma rede
+    }
   }
 })
